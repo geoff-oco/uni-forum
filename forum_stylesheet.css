@@ -1,0 +1,61 @@
+
+
+/* Change font of all tags to Arial */
+* {
+	font-family: Arial
+}
+
+/* Reduce gap beneath H2 */
+h2 {
+	margin-bottom: -10px;
+}
+
+/* Control width and margin of fieldsets */
+fieldset {
+	width: 350px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+/* Make legend text bold */
+legend {
+	font-weight: bold;
+}
+
+/* Make superscript tags red */
+sup {
+	color: #FF0000;
+}
+
+/* Make labels "blocks" rather than "inline" */
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Set width of span tags inside fieldsets and make them sit on the left of other things */
+fieldset span {
+  float: left;
+  width: 150px;
+}
+
+/* Set width for text fields, password fields and drop-down lists*/
+input[type="text"], input[type="password"], select {
+	width: 170px
+}
+
+/* Used to make labels for radio buttons inline, but have margins */
+.radio_label {
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+
+/* Used to center things horizontally */
+.middle {
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
